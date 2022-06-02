@@ -1,21 +1,15 @@
-list = [1, 2, 3, 4, 5, 6]
+li = []
+li.insert(0,5)
+li.insert(1,10)
+li.insert(0,6)
+print(li)
+li.remove(6)
+li.append(9)
+li.append(1)
+li.sort()
+print(li)
+li.pop()
+li.reverse()
+print(li)
 
 
-# List Comprehension
-
-a = [x ** 3 for x in list]
-print(a)
-
-# Generator expression
-
-z = (x ** 3 for x in list)
-
-print(z)
-
-print(next(z))
-
-print(next(z))
-
-print(next(z))
-
-print(next(z))
