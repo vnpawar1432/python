@@ -1,0 +1,6 @@
+str = input("Enter the string: ")
+li = str.split(" ")
+print(li)
+li.sort()
+str1 = " ".join(li)
+print(str1)
