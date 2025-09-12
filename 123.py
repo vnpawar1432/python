@@ -4,3 +4,6 @@ for i in range(s):
     ele = int(input())
     li.append(ele)
 print(li)
+
+
+print(li)
